@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public virtual class Bonuses
+public class Bonuses : MonoBehaviour
 {
 	public string bonusName;
 	public SpriteRenderer bonusSprite;
